@@ -35,6 +35,50 @@ h1 {
     flex: 1;
 }
 
+.spandiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.spanicon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 150px;
+    height: 50px; 
+    border-radius: 20px;
+    border: 2px solid #6f42c1;  
+}
+
+.icon1{
+    color: rgb(229, 233, 10);
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.icon2{
+    color: orange;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.icon3{
+    color: rgb(0, 140, 255);
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.icon4{
+    color: rgb(0, 225, 233);
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+/*---Footer---*/
+
 .footer {
     background-color: #ffffff;
     color: #000000;
@@ -63,7 +107,7 @@ h1 {
     color: #6f42c1;
 }
 
-.iconhub{
+.iconhub {
     color: #6f42c1;
 }
 
@@ -122,7 +166,8 @@ footer .gap-3 {
 .footer-bottom-line {
     border-top: 1px solid #6c757d;
     margin-top: 15px;
-    margin-bottom: 15px; 
-  }
-  
+    margin-bottom: 15px;
+}
 
+
+/*---Footer FIM---*/
