@@ -5,7 +5,8 @@ import { FaGithub } from "react-icons/fa";
 import Image from "next/image";
 import alvaro from "./imagens/alvaro.jpg";
 import Footer from "./components/footer";
-import { FaJsSquare, FaHtml5, FaCss3Alt } from 'react-icons/fa';
+import { FaJsSquare, FaHtml5, FaCss3Alt, FaBook, FaBriefcase, FaRobot } from 'react-icons/fa';
+import { RiPhpLine, RiEnglishInput } from "react-icons/ri";
 import { SiReactbootstrap } from "react-icons/si";
 
 export default function Page() {
@@ -59,10 +60,33 @@ export default function Page() {
             <Col md={6}>
               <Card className="mb-3">
                 <Card.Body>
-                  <Card.Title>Formação Acadêmica</Card.Title>
-                  <Card.Text>Análise e Desenvolvimento de Sistemas - IES</Card.Text>
-                  <Card.Title>Cursos</Card.Title>
-                  <Card.Text>PHP, JavaScript</Card.Text>
+                  <Card.Title className="title-container">
+                    <div className="icon5">
+                      <FaBook />
+                    </div>
+                    Formação Acadêmica
+                  </Card.Title>
+                  <Card.Text className="cardtext">
+                    Cursando Análise e Desenvolvimento de Sistemas - IESB
+                  </Card.Text>
+                  <Card.Title className="title-container">
+                    <div className="icon5">
+                      <FaBook />
+                    </div>
+                    Cursos
+                  </Card.Title>
+                  <Card.Text className="cardtext">
+                    <FaJsSquare className="iconcursos" /> JavaScript
+                  </Card.Text>
+                  <Card.Text className="cardtext">
+                    <RiPhpLine className="iconcursos" /> PHP Moderno
+                  </Card.Text>
+                  <Card.Text className="cardtext">
+                    <RiEnglishInput className="iconcursos" />Inglês
+                  </Card.Text>
+                  <Card.Text className="cardtext">
+                    <FaRobot className="iconcursos" />Robótica
+                  </Card.Text>
                 </Card.Body>
               </Card>
             </Col>
@@ -70,8 +94,22 @@ export default function Page() {
             <Col md={6}>
               <Card>
                 <Card.Body>
-                  <Card.Title>Experiência Profissional</Card.Title>
-                  <Card.Text>Desenvolvedor Web - Empresa XYZ</Card.Text>
+                  <Card.Title className="title-container">
+                    <div className="icon5">
+                      <FaBriefcase />
+                    </div>
+                    Formação Acadêmica
+                  </Card.Title>
+                  <Card.Text className="tcdf-title">TCDF - Estagiário</Card.Text>
+                  <Card.Text className="tcdf-date">01/2020 - 01/2021</Card.Text>
+                  <Card.Text className="tcdf-text">
+                    Estagiário no TCDF, apoiando na análise de processos e elaboração de relatórios jurídicos.
+                  </Card.Text>
+                  <Card.Text className="tcdf-title">Efatá Informática - Técnico/Vendedor</Card.Text>
+                  <Card.Text className="tcdf-date">05/2023 - Atual</Card.Text>
+                  <Card.Text className="tcdf-text">
+                    Estagiário no TCDF, apoiando na análise de processos e elaboração de relatórios jurídicos.
+                  </Card.Text>
                 </Card.Body>
               </Card>
             </Col>
